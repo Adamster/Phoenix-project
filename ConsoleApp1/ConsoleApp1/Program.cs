@@ -8,8 +8,15 @@ namespace ConsoleApp1
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            ConcreteDerivedClass instance = new ConcreteDerivedClass();
+
+            instance.SimpleMethod();
+            instance.VirtualMethod();
+            instance.AbstractMethod();
+
+            Console.ReadKey();
         }
     }
 }
