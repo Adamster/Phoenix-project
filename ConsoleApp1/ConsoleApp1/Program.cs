@@ -16,7 +16,7 @@ namespace ConsoleApp1
             instance.VirtualMethod();
             instance.AbstractMethod();
 
-           
+           // Console.ReadKey();
         }
     }
 }
